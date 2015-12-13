@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp1"
+        android:enabled="true">
+
+        <item
+            android:id="@+id/act_main_connect"
+            android:title="Connect"/>
+        <item
+            android:id="@+id/act_sheet_refresh"
+            android:title="Refresh" />
+
+        <item
+            android:id="@+id/act_sheet_buzz"
+            android:title="Buzz" />
+        <item
+            android:id="@+id/act_sheet_disconnect"
+            android:title="Disconnect" />
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:enabled="false">
+
+        <item
+            android:id="@+id/act_sheet_fw"
+            android:title="FIRM" />
+        <item
+            android:id="@+id/act_sheet_temp"
+            android:title="TEMP" />
+
+        <item
+            android:id="@+id/act_sheet_idps"
+            android:title="IDPS" />
+        <item
+            android:id="@+id/act_sheet_psid"
+            android:title="PSID" />
+    </group>
+
+</menu>

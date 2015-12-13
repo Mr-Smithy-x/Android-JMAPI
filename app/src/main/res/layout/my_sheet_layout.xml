@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sheet_nav_view"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:menu="@menu/sheet_process_menu"
+    app:headerLayout="@layout/sheet_header_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/core_idps_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textColorHint="#aaaaaa"
+            android:background="@color/cardview_light_background"
+            android:textColor="@color/colorPrimary"
+            android:hint="IDPS"
+            android:maxLength="32"
+            android:padding="8dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/core_idps_set"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:elevation="4dp"
+            android:background="@color/cardview_light_background"
+            android:textColor="@color/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Set" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/core_psid_edit"
+            android:textColor="@color/colorPrimary"
+            android:inputType="number"
+            android:textColorHint="#aaaaaa"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:hint="PSID"
+            android:maxLength="32"
+            android:padding="8dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:elevation="4dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/core_psid_set"
+            android:background="@color/cardview_light_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Set" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/colorPrimary"
+        android:elevation="4dp"
+        android:id="@+id/core_close"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Close" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/cardview_dark_background"
+    app:contentPadding="16dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/ic_tap_and_play_24dp"
+            android:id="@+id/sys_icon"
+            android:tint="@color/cardview_light_background"
+            android:layout_width="48dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="48dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/sys_icon"
+            android:textSize="22sp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/sys_title"
+            android:layout_height="wrap_content"
+            android:text="Title" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/sys_icon"
+            android:textSize="16sp"
+            android:layout_below="@id/sys_title"
+            android:id="@+id/sys_sub"
+            android:layout_height="wrap_content"
+            android:text="Send command to PS3" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
